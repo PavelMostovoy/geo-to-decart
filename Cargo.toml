@@ -4,9 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Pavlo Mostovoi <pavelmostovoy@gmail.com>"]
 description = "Geo coordinates conversion to local ENU/ECEF for small areas"
-license = "GPL-3"
-repository = ""
+license = "MIT"
+repository = "https://github.com/PavelMostovoy/geo-to-decart.git"
 readme = "README.md"
+keywords = ["geo","coorginates","conversion"]
+categories = ["science::geo"]
 
 [lib]
 name = "geo_to_decart"
