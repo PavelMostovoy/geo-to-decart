@@ -1,0 +1,15 @@
+[package]
+name = "geo-to-decart"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pavlo Mostovoi <pavelmostovoy@gmail.com>"]
+description = "Geo coordinates conversion to local ENU/ECEF for small areas"
+license = "GPL-3"
+repository = ""
+readme = "README.md"
+
+[lib]
+name = "geo_to_decart"
+path = "src/lib.rs"
+
+[dependencies]
