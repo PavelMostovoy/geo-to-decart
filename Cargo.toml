@@ -9,6 +9,9 @@ repository = "https://github.com/PavelMostovoy/geo-to-decart.git"
 readme = "README.md"
 keywords = ["geo","coorginates","conversion"]
 categories = ["science::geo"]
+exclude = [
+    ".idea/*",
+]
 
 [lib]
 name = "geo_to_decart"
